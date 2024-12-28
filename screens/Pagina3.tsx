@@ -35,6 +35,7 @@ export default function Pagina3() {
         onChangeText={(texto) => setedad(+texto) }
         
       />
+      
 
       <Button title='Aceptar' onPress={() => usuario()}/>
     </View>

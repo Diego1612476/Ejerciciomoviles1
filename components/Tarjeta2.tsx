@@ -25,14 +25,22 @@ const styles = StyleSheet.create({
     },
     container:{
         backgroundColor: '#0f118a',
-        margin:1
+        margin:1,
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center'
     },
     modal:{
-        backgroundColor: '#27bcd3'
+        backgroundColor: '#27bcd3',
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center'
     },
     img:{
         width: 150,
         height:300,
-        resizeMode:'contain'
+        resizeMode:'contain',
+        display:'flex',
+        justifyContent:'center'
     }
 })
